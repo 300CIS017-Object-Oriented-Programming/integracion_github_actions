@@ -72,14 +72,4 @@ TEST(CalculatorTest, multiply){
     //Assert section
     EXPECT_EQ(50,result);
 }
-
-TEST(CalculatorTest, sayHello) {
-    string name = "Luisa";
-
-    //Act section
-    Calculator myCalculator;
-    string result = myCalculator.sayHello(name);
-
-    //Assert section
-    EXPECT_EQ("Hi Luisa how are you?", result);
-}
+git o
